@@ -3,8 +3,9 @@
 ## Project Setup and Packaging
 
 ### Project Structure
+
 Typical Project Structure:
-    
+
     project-name/
         project-name/
             __init__.py
@@ -21,9 +22,10 @@ Typical Project Structure:
 See [python project template](https://github.com/tigeryy2/python-template).
 
 ### Project Setup
+
 Provide a `setup.py` to enable Python project setup.
 
-The `setup.py` script allows installation of the project, both as a standalone project and as a package in another 
+The `setup.py` script allows installation of the project, both as a standalone project and as a package in another
 project.
 
     """
@@ -68,5 +70,31 @@ project.
 See [setup.py template](https://github.com/tigeryy2/python-template/blob/main/setup.py).
 
 References:
+
 - https://oak-tree.tech/blog/python-packaging-primer
 - https://shunsvineyard.info/2019/12/23/using-git-submodule-and-develop-mode-to-manage-python-projects/
+
+## Builtin Modules and Functions
+
+### collections.namedtuple
+
+Tuple and Dictionary like objects to store values in both key-value and iterative patterns.
+
+    # example from geeksforgeeks.org
+    from collections import namedtuple
+      
+    # Declaring namedtuple()
+    Student = namedtuple('Student', ['name', 'age', 'DOB'])
+      
+    # Adding values
+    S = Student('Nandini', '19', '2541997')
+      
+    # Access using index
+    print("The Student age using index is : ", end="")
+    print(S[1])
+      
+    # Access using name
+    print("The Student name using keyname is : ", end="")
+    print(S.name)
+
+See [namedtuple-in-python](https://www.geeksforgeeks.org/namedtuple-in-python/)
