@@ -116,6 +116,8 @@ def write_index(file: TextIO, headers: dict[Path, list[Header]]):
             if summary:
                 file.write(f"{summary}\n")
 
+    file.write("___\n")
+
 
 def generate_index(markdown_directory: Path, destination_path: Path):
     """
