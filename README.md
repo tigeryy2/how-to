@@ -1,2 +1,5 @@
 # How To?
+
 My personal notes on how-to's, to avoid re-googling and re-reading docs for common issues.
+
+See [index](index.md)
