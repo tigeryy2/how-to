@@ -1,6 +1,10 @@
 # Python References
 
+Python notes and references
+
 ## Project Setup and Packaging
+
+Python project setup, packaging, tools.
 
 ### Project Structure
 
@@ -75,6 +79,8 @@ References:
 - https://shunsvineyard.info/2019/12/23/using-git-submodule-and-develop-mode-to-manage-python-projects/
 
 ## Builtin Modules and Functions
+
+Python built-in modules, functions, and tools.
 
 ### collections.namedtuple
 
