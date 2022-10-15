@@ -10,23 +10,23 @@ ___
 
 ### [`swift.md`](how-to/swift.md)
 
-#### [Swift References](how-to/swift.md#Swift References)
+#### [Swift References](how-to/swift.md#Swift-References)
 
 ### [`python.md`](how-to/python.md)
 
-#### [Python References](how-to/python.md#Python References)
+#### [Python References](how-to/python.md#Python-References)
 
 Python notes and references
-##### [Project Setup and Packaging](how-to/python.md#Project Setup and Packaging)
+##### [Project Setup and Packaging](how-to/python.md#Project-Setup-and-Packaging)
 
 Python project setup, packaging, tools.
-###### [Project Structure](how-to/python.md#Project Structure)
+###### [Project Structure](how-to/python.md#Project-Structure)
 
 Typical Project Structure:
-###### [Project Setup](how-to/python.md#Project Setup)
+###### [Project Setup](how-to/python.md#Project-Setup)
 
 Provide a `setup.py` to enable Python project setup.
-##### [Builtin Modules and Functions](how-to/python.md#Builtin Modules and Functions)
+##### [Builtin Modules and Functions](how-to/python.md#Builtin-Modules-and-Functions)
 
 Python built-in modules, functions, and tools.
 ###### [namedtuple](how-to/python.md#namedtuple)
@@ -34,9 +34,9 @@ Python built-in modules, functions, and tools.
 Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`
 ### [`general.md`](how-to/general.md)
 
-#### [General References](how-to/general.md#General References)
+#### [General References](how-to/general.md#General-References)
 
 ### [`git.md`](how-to/git.md)
 
-#### [GIT References](how-to/git.md#GIT References)
+#### [GIT References](how-to/git.md#GIT-References)
 

@@ -108,7 +108,9 @@ def write_index(file: TextIO, headers: dict[Path, list[Header]]):
         # section
         for header in file_headers:
             level, name, summary = header
-            file.write(f"###{level * '#'} [{name}]({md_file_path}#{name})\n\n")
+            # on github, spaces are converted to `-` for section header links
+            section_link = name.replace(" ", "-")
+            file.write(f"###{level * '#'} [{name}]({md_file_path}#{section_link})\n\n")
 
             # if a summary was found in the original, add it
             if summary:
