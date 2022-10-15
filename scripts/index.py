@@ -6,7 +6,7 @@ import re
 from collections import namedtuple
 from pathlib import Path
 
-Header = namedtuple("Header", ["level", "name", "first_line"])
+Header = namedtuple("Header", ["level", "name", "summary"])
 
 
 def get_md_in(directory: Path | str) -> [Path]:
@@ -64,14 +64,21 @@ def get_headers_from(file: Path | str) -> [Header]:
     return headers
 
 
-def main():
-    markdown_files = get_md_in(os.path.join("..", "how-to"))
+def generate_index(markdown_directory: Path, destination_path: Path):
+    markdown_files = get_md_in(markdown_directory)
 
     headers: dict[Path, list[Header]] = {}
     for file in markdown_files:
-        headers[file] = get_headers_from(file)
+        relative_file_path = Path(os.path.relpath(file, start=destination_path.parent))
+        headers[relative_file_path] = get_headers_from(file)
 
     print(headers)
+
+
+def main():
+    markdown_folder = Path(os.path.join("..", "how-to"))
+    destination_path = Path(os.path.join("..", "index.md"))
+    generate_index(markdown_folder, destination_path)
 
 
 if __name__ == '__main__':
