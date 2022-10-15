@@ -82,9 +82,9 @@ References:
 
 Python built-in modules, functions, and tools.
 
-### collections.namedtuple
+### namedtuple
 
-Tuple and Dictionary like objects to store values in both key-value and iterative patterns.
+Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`
 
     # example from geeksforgeeks.org
     from collections import namedtuple
