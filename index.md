@@ -8,36 +8,33 @@ Run `python scripts/index.py` to re-generate this file.
 File, title, and summary for each header in the `how-to` directory.
 ___
 
-### [`swift.md`](how-to/swift.md)
 
-#### [Swift References](how-to/swift.md#Swift-References)
+[`swift.md`](how-to/swift.md)
+- [Swift References](how-to/swift.md#Swift-References)
 
-### [`python.md`](how-to/python.md)
+[`python.md`](how-to/python.md)
+- [Python References](how-to/python.md#Python-References)
+    - Python notes and references
+    - [Project Setup and Packaging](how-to/python.md#Project-Setup-and-Packaging)
+        - Python project setup, packaging, tools.
+        - [Project Structure](how-to/python.md#Project-Structure)
+            - Typical Project Structure:
+        - [Project Setup](how-to/python.md#Project-Setup)
+            - Provide a `setup.py` to enable Python project setup.
+    - [Builtin Modules and Functions](how-to/python.md#Builtin-Modules-and-Functions)
+        - Python built-in modules, functions, and tools.
+        - [namedtuple](how-to/python.md#namedtuple)
+            - Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`
+        - [Pathlib](how-to/python.md#Pathlib)
+            - Python's built-in module for filesystem paths. See [pathlib](https://docs.python.org/3/library/pathlib.html).
+            - [Get path of current file](how-to/python.md#Get-path-of-current-file)
+                - Use `pathlib.Path(__file__).resolve()` to get path to the current file.
+            - [pathlib.resolve()](how-to/python.md#pathlib.resolve())
+                - Removes any symlinks and makes a path absolute.
 
-#### [Python References](how-to/python.md#Python-References)
+[`general.md`](how-to/general.md)
+- [General References](how-to/general.md#General-References)
 
-Python notes and references
-##### [Project Setup and Packaging](how-to/python.md#Project-Setup-and-Packaging)
-
-Python project setup, packaging, tools.
-###### [Project Structure](how-to/python.md#Project-Structure)
-
-Typical Project Structure:
-###### [Project Setup](how-to/python.md#Project-Setup)
-
-Provide a `setup.py` to enable Python project setup.
-##### [Builtin Modules and Functions](how-to/python.md#Builtin-Modules-and-Functions)
-
-Python built-in modules, functions, and tools.
-###### [namedtuple](how-to/python.md#namedtuple)
-
-Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`
-### [`general.md`](how-to/general.md)
-
-#### [General References](how-to/general.md#General-References)
-
-### [`git.md`](how-to/git.md)
-
-#### [GIT References](how-to/git.md#GIT-References)
-
+[`git.md`](how-to/git.md)
+- [GIT References](how-to/git.md#GIT-References)
 ___

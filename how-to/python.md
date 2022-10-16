@@ -104,3 +104,22 @@ Tuple and Dictionary like objects to store values in both key-value and iterativ
     print(S.name)
 
 See [namedtuple-in-python](https://www.geeksforgeeks.org/namedtuple-in-python/)
+
+### Pathlib
+
+Python's built-in module for filesystem paths. See [pathlib](https://docs.python.org/3/library/pathlib.html).
+
+#### Get path of current file
+
+Use `pathlib.Path(__file__).resolve()` to get path to the current file.
+
+    import pathlib
+    # directory of the current file
+    pathlib.Path(__file__).parent.resolve()
+    
+    # current working directory
+    pathlib.Path().resolve()
+
+#### pathlib.resolve()
+
+Removes any symlinks and makes a path absolute.
