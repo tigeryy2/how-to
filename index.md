@@ -26,7 +26,7 @@ ___
         - [namedtuple](how-to/python.md#namedtuple)
             - Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`
         - [Pathlib](how-to/python.md#Pathlib)
-            - Python's built-in module for filesystem paths. See [pathlib](https://docs.python.org/3/library/pathlib.html).
+            - Python's built-in module for filesystem paths. See [pathlib docs](https://docs.python.org/3/library/pathlib.html)
             - [Get path of current file](how-to/python.md#Get-path-of-current-file)
                 - Use `pathlib.Path(__file__).resolve()` to get path to the current file.
             - [pathlib.resolve()](how-to/python.md#pathlib.resolve())

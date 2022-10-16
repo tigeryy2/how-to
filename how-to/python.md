@@ -107,7 +107,8 @@ See [namedtuple-in-python](https://www.geeksforgeeks.org/namedtuple-in-python/)
 
 ### Pathlib
 
-Python's built-in module for filesystem paths. See [pathlib](https://docs.python.org/3/library/pathlib.html).
+Python's built-in module for filesystem paths. See [pathlib docs](https://docs.python.org/3/library/pathlib.html)
+and [realpython pathlib](https://realpython.com/python-pathlib/).
 
 #### Get path of current file
 
