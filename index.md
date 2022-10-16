@@ -34,6 +34,15 @@ ___
 
 [`general.md`](how-to/general.md)
 - [General References](how-to/general.md#General-References)
+    - General notes and references that don't yet warrant a separate file.
+    - [Cheat Sheets](how-to/general.md#Cheat-Sheets)
+        - Shortcuts and syntax cheat sheets
+        - [Pycharm Shortcuts](how-to/general.md#Pycharm-Shortcuts)
+            - See [pycharm keyboard shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html).
+        - [Vimium Shortcuts](how-to/general.md#Vimium-Shortcuts)
+            - See [vimium shortcuts](https://github.com/philc/vimium/blob/master/README.md).
+        - [Markdown Cheat Sheet](how-to/general.md#Markdown-Cheat-Sheet)
+            - See [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
 
 [`git.md`](how-to/git.md)
 - [GIT References](how-to/git.md#GIT-References)
