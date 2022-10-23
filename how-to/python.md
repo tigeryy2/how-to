@@ -82,6 +82,38 @@ References:
 
 Python built-in modules, functions, and tools.
 
+### dataclass
+
+Provides `@dataclass` decorator for basic functionality for classes used to hold data.
+
+    from dataclasses import dataclass
+
+    @dataclass
+    class Person:
+        # type hints are mandatory in data classes to include fields
+        # optionally, use the `Any` type
+        name: str
+        age: int
+        height: float
+        weight: float
+        
+        # use `Literal` type to support typehinting to limited values
+        sex: Literal["male", "female"]
+        
+        # using default values
+        address: Optional[str] = None
+        
+        # freely define methods, just as in a normal class
+        def workout(duration: float):
+            ...
+
+    tiger = Person("Tiger Yang", 24, 6, 180, "male", address="Austin, Texas")
+
+Dataclasses provides the `__init__`, `__repr__`, and `__eq__` methods.
+
+See [realpython dataclasses](https://realpython.com/python-data-classes/)
+and [Literals](https://adamj.eu/tech/2021/07/09/python-type-hints-how-to-use-typing-literal/).
+
 ### namedtuple
 
 Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`

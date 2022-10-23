@@ -1,13 +1,26 @@
 """
 Generate a formatted index.md for all markdown files in a directory.
 """
+import logging
 import os
 import re
 from collections import namedtuple
+from logging import getLogger
 from pathlib import Path
 from typing.io import TextIO
 
 Header = namedtuple("Header", ["level", "name", "summary"])
+
+
+def log() -> logging.Logger:
+    """
+    Provides logger
+
+
+    :return:
+    :rtype:
+    """
+    return getLogger(__name__)
 
 
 def get_md_in(directory: Path | str) -> [Path]:
@@ -20,6 +33,8 @@ def get_md_in(directory: Path | str) -> [Path]:
     :return: List of markdown files
     :rtype: list
     """
+    log().debug(f"Looking for markdown files in `{directory}`")
+
     if type(directory) is str:
         directory = Path(directory)
 
@@ -28,6 +43,7 @@ def get_md_in(directory: Path | str) -> [Path]:
 
     markdown_files: [Path] = []
     for path in os.listdir(directory):
+        log().debug(f"Trying path `{path}`")
         if str(path).split(".")[1] == "md":
             markdown_files.append(os.path.join(directory, path))
 
@@ -130,6 +146,8 @@ def generate_index(markdown_directory: Path, destination_path: Path):
     :param destination_path: Destination for the index. File will be overwritten.
     :type destination_path: Path
     """
+    log().info(
+        f"Generating index to `{destination_path}` from markdown files in `{markdown_directory}`")
     markdown_files = get_md_in(markdown_directory)
 
     headers: dict[Path, list[Header]] = {}
@@ -146,8 +164,9 @@ def generate_index(markdown_directory: Path, destination_path: Path):
 
 
 def main():
-    markdown_folder = Path(os.path.join("..", "how-to"))
-    destination_path = Path(os.path.join("..", "index.md"))
+    logging.basicConfig(level=logging.DEBUG)
+    markdown_folder = Path(os.path.join("how-to")).resolve()
+    destination_path = Path(os.path.join("index.md")).resolve()
     generate_index(markdown_folder, destination_path)
 
 

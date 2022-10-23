@@ -23,6 +23,8 @@ ___
             - Provide a `setup.py` to enable Python project setup.
     - [Builtin Modules and Functions](how-to/python.md#Builtin-Modules-and-Functions)
         - Python built-in modules, functions, and tools.
+        - [dataclass](how-to/python.md#dataclass)
+            - Provides `@dataclass` decorator for basic functionality for classes used to hold data.
         - [namedtuple](how-to/python.md#namedtuple)
             - Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`
         - [Pathlib](how-to/python.md#Pathlib)
