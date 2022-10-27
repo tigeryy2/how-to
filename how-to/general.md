@@ -6,9 +6,17 @@ General notes and references that don't yet warrant a separate file.
 
 Shortcuts and syntax cheat sheets
 
-### Pycharm Shortcuts
+### Pycharm
+
+Pycharm references
+
+#### Pycharm Shortcuts
 
 See [pycharm keyboard shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html).
+
+#### Pycharm Source Code Navigation
+
+See [pycharm source code navigation](https://www.jetbrains.com/help/pycharm/navigating-through-the-source-code.html).
 
 ### Vimium Shortcuts
 

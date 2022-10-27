@@ -39,8 +39,12 @@ ___
     - General notes and references that don't yet warrant a separate file.
     - [Cheat Sheets](how-to/general.md#Cheat-Sheets)
         - Shortcuts and syntax cheat sheets
-        - [Pycharm Shortcuts](how-to/general.md#Pycharm-Shortcuts)
-            - See [pycharm keyboard shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html).
+        - [Pycharm](how-to/general.md#Pycharm)
+            - Pycharm references
+            - [Pycharm Shortcuts](how-to/general.md#Pycharm-Shortcuts)
+                - See [pycharm keyboard shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html).
+            - [Pycharm Source Code Navigation](how-to/general.md#Pycharm-Source-Code-Navigation)
+                - See [pycharm source code navigation](https://www.jetbrains.com/help/pycharm/navigating-through-the-source-code.html).
         - [Vimium Shortcuts](how-to/general.md#Vimium-Shortcuts)
             - See [vimium shortcuts](https://github.com/philc/vimium/blob/master/README.md).
         - [Markdown Cheat Sheet](how-to/general.md#Markdown-Cheat-Sheet)
