@@ -11,6 +11,11 @@ ___
 
 [`swift.md`](how-to/swift.md)
 - [Swift References](how-to/swift.md#Swift-References)
+    - Swift and SwiftUI references
+    - [General Resources](how-to/swift.md#General-Resources)
+        - General useful resources for Swift and SwiftUI
+        - [`hackingwithswift.com`](how-to/swift.md#`hackingwithswift.com`)
+            - Homepage: [`hackingwithswift.com`](https://www.hackingwithswift.com/).
 
 [`python.md`](how-to/python.md)
 - [Python References](how-to/python.md#Python-References)
