@@ -16,6 +16,8 @@ ___
         - General useful resources for Swift and SwiftUI
         - [`hackingwithswift.com`](how-to/swift.md#`hackingwithswift.com`)
             - Homepage: [`hackingwithswift.com`](https://www.hackingwithswift.com/).
+        - [SwiftLint](how-to/swift.md#SwiftLint)
+            - Linting tool for `Swift` and `SwiftUI`.
 
 [`python.md`](how-to/python.md)
 - [Python References](how-to/python.md#Python-References)
