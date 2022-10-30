@@ -2,13 +2,13 @@
 
 Swift and SwiftUI references
 
-## XCode
+## Xcode
 
 General useful resources for xCode
 
-### XCode Shortcuts
+### Xcode Shortcuts
 
-[Keyboard shortcuts for XCode](https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf)
+[Keyboard shortcuts for Xcode](https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf)
 
 | Function    | Shortcut   | Notes                           |
 |-------------|------------|---------------------------------|
