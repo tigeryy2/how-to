@@ -12,6 +12,10 @@ ___
 [`swift.md`](how-to/swift.md)
 - [Swift References](how-to/swift.md#Swift-References)
     - Swift and SwiftUI references
+    - [XCode](how-to/swift.md#XCode)
+        - General useful resources for xCode
+        - [XCode Shortcuts](how-to/swift.md#XCode-Shortcuts)
+            - [Keyboard shortcuts for XCode](https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf)
     - [General Resources](how-to/swift.md#General-Resources)
         - General useful resources for Swift and SwiftUI
         - [`hackingwithswift.com`](how-to/swift.md#`hackingwithswift.com`)

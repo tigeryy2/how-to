@@ -2,6 +2,19 @@
 
 Swift and SwiftUI references
 
+## XCode
+
+General useful resources for xCode
+
+### XCode Shortcuts
+
+[Keyboard shortcuts for XCode](https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf)
+
+| Function    | Shortcut   | Notes                           |
+|-------------|------------|---------------------------------|
+| Auto-format | `Ctrl + I` | Formats currently selected code |
+| Build       | `Cmd + B`  | Build                           |
+
 ## General Resources
 
 General useful resources for Swift and SwiftUI
