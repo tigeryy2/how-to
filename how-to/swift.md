@@ -10,11 +10,13 @@ General useful resources for xCode
 
 [Keyboard shortcuts for Xcode](https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf)
 
-| Function         | Shortcut            | Notes                           |
-|------------------|---------------------|---------------------------------|
-| Auto-format      | `Ctrl + I`          | Formats currently selected code |
-| Build            | `Cmd + B`           | Build                           |
-| Show/Hide Canvas | `Opt + Cmd + Enter` | Toggle preview                  |
+| Function         | Shortcut             | Notes                             |
+|------------------|----------------------|-----------------------------------|
+| Auto-format      | `Ctrl + I`           | Formats currently selected code   |
+| Build            | `Cmd + B`            | Build                             |
+| Show/Hide Canvas | `Opt + Cmd + Enter`  | Toggle preview                    |
+| Add doc comment  | `Opt + Cmd + /`      | Adds documentation comment        |
+| Open Quickly     | `Cmd + Shift + O`    | Search files, types, etc and open |
 
 ## General Resources
 
