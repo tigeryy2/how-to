@@ -49,3 +49,45 @@ Script:
     else
     echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
     fi
+
+## SwiftUI
+
+SwiftUI references
+
+### List Selection
+
+Add the `selection: $selection_state` parameter into `List`.
+See [link](https://www.hackingwithswift.com/quick-start/swiftui/how-to-allow-row-selection-in-a-list).
+
+Example:
+
+    @State var selection = Set<String>()
+    let values = [
+        "Tiger",
+        "Lion",
+        "Cheetah",
+        "Leopard"
+    ]
+    
+    var body: some View {
+        NavigationView {
+            List(values, id: \.self, selction: $selection) {
+                Text($0)
+            }
+            // Canmanually set the editmode w/o a button
+            .environment(\.editMode, .constant(.active))
+            .toolbar {
+                // or use a EditButton
+                // Editmode needs to be on for selection to be activated
+                EditButton()
+            }
+        }
+    }
+
+### Searchable
+
+Use `.searchable(text: $searchText)` to add a search bar to any view in a `NavigationView`.
+See [link](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-search-bar-to-filter-your-data).
+
+Use the `.onSubmit(of: .search)` or the text state directly to interact with the search bar.
+For details, see [link](https://sarunw.com/posts/searchable-in-swiftui/#onsubmit).

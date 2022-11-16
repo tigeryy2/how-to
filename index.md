@@ -22,6 +22,12 @@ ___
             - Homepage: [`hackingwithswift.com`](https://www.hackingwithswift.com/).
         - [SwiftLint](how-to/swift.md#SwiftLint)
             - Linting tool for `Swift` and `SwiftUI`.
+    - [SwiftUI](how-to/swift.md#SwiftUI)
+        - SwiftUI references
+        - [List Selection](how-to/swift.md#List-Selection)
+            - Add the `selection: $selection_state` parameter into `List`.
+        - [Searchable](how-to/swift.md#Searchable)
+            - Use `.searchable(text: $searchText)` to add a search bar to any view in a `NavigationView`.
 
 [`python.md`](how-to/python.md)
 - [Python References](how-to/python.md#Python-References)
