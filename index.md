@@ -28,6 +28,8 @@ ___
             - Add the `selection: $selection_state` parameter into `List`.
         - [Searchable](how-to/swift.md#Searchable)
             - Use `.searchable(text: $searchText)` to add a search bar to any view in a `NavigationView`.
+        - [List Row Seperator Insets](how-to/swift.md#List-Row-Seperator-Insets)
+            - In iOS 16, lists have different seperator behavior. Adjust this using new alignment: `listRowSeperatorLeading` and
 
 [`python.md`](how-to/python.md)
 - [Python References](how-to/python.md#Python-References)

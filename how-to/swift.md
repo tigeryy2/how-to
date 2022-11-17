@@ -91,3 +91,25 @@ See [link](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-a-sea
 
 Use the `.onSubmit(of: .search)` or the text state directly to interact with the search bar.
 For details, see [link](https://sarunw.com/posts/searchable-in-swiftui/#onsubmit).
+
+### List Row Seperator Insets
+
+In iOS 16, lists have different seperator behavior. Adjust this using new alignment: `listRowSeperatorLeading` and
+`listRowSeperatorTrailing`.
+
+See [link](https://sarunw.com/posts/swiftui-list-row-separator-insets/).
+
+Example::
+
+    List(items) {
+        HStack {
+            Image("someImage")
+            Text("some text")
+        }
+        // overrides default list separator behavior
+        .alignmentGuide(.listRowSeperatorLeading) { viewDimensions in
+            // custom value, 0 starts from leading edge
+            return 0
+        }
+    }
+    
