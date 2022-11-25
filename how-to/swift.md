@@ -112,4 +112,11 @@ Example::
             return 0
         }
     }
+
+### Date Formatting
+
+Use `.formatted()` method in iOS 15+ to format dates into text. E.g. `date.formatted(.dateTime.day().month().year())`
+prints something like `Jan 1, 2023`.
+
+See [link](https://designcode.io/swiftui-handbook-formatted-date).
     

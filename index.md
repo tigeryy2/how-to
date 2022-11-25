@@ -30,6 +30,8 @@ ___
             - Use `.searchable(text: $searchText)` to add a search bar to any view in a `NavigationView`.
         - [List Row Seperator Insets](how-to/swift.md#List-Row-Seperator-Insets)
             - In iOS 16, lists have different seperator behavior. Adjust this using new alignment: `listRowSeperatorLeading` and
+        - [Date Formatting](how-to/swift.md#Date-Formatting)
+            - Use `.formatted()` method in iOS 15+ to format dates into text. E.g. `date.formatted(.dateTime.day().month().year())`
 
 [`python.md`](how-to/python.md)
 - [Python References](how-to/python.md#Python-References)
