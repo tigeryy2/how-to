@@ -18,6 +18,12 @@ See [pycharm keyboard shortcuts](https://www.jetbrains.com/help/pycharm/masterin
 
 See [pycharm source code navigation](https://www.jetbrains.com/help/pycharm/navigating-through-the-source-code.html).
 
+#### Pycharm Terminal PowerShell Execution Policy (Windows)
+
+Run `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted` in PowerShell
+
+On Windows, Pycharm terminal may show a warning that running scripts is disabled due to system policy.
+
 ### Vimium Shortcuts
 
 See [vimium shortcuts](https://github.com/philc/vimium/blob/master/README.md).
