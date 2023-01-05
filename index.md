@@ -46,6 +46,8 @@ ___
         - Python built-in modules, functions, and tools.
         - [dataclass](how-to/python.md#dataclass)
             - Provides `@dataclass` decorator for basic functionality for classes used to hold data.
+            - [Unpacking Dataclasses](how-to/python.md#Unpacking-Dataclasses)
+                - Use the `dataclasses.astuple(obj)` method to unpack a dataclass instance into a tuple. Note that this is recursive.
         - [namedtuple](how-to/python.md#namedtuple)
             - Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`
         - [Pathlib](how-to/python.md#Pathlib)
@@ -54,6 +56,10 @@ ___
                 - Use `pathlib.Path(__file__).resolve()` to get path to the current file.
             - [pathlib.resolve()](how-to/python.md#pathlib.resolve())
                 - Removes any symlinks and makes a path absolute.
+        - [Collections](how-to/python.md#Collections)
+            - The `collections.abc` module provides Abstract Base Classes for various containers. These containers provide various
+            - [Making an object subscriptable and iterable](how-to/python.md#Making-an-object-subscriptable-and-iterable)
+                - Providing the `__getitem__` and `__setitem__` magic methods allows usage of subscripts directly on the object.
 
 [`general.md`](how-to/general.md)
 - [General References](how-to/general.md#General-References)
