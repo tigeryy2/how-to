@@ -60,6 +60,8 @@ ___
             - The `collections.abc` module provides Abstract Base Classes for various containers. These containers provide various
             - [Making an object subscriptable and iterable](how-to/python.md#Making-an-object-subscriptable-and-iterable)
                 - Providing the `__getitem__` and `__setitem__` magic methods allows usage of subscripts directly on the object.
+        - [Asterisks](how-to/python.md#Asterisks)
+            - The `*` and `**` operators in python can be used in several ways, including tuple unpacking, iterator unpacking into
 
 [`general.md`](how-to/general.md)
 - [General References](how-to/general.md#General-References)
