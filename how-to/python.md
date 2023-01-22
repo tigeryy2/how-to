@@ -202,3 +202,19 @@ The `*` and `**` operators in python can be used in several ways, including tupl
 lists, and more.
 
 See [asterisks in python](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/).
+
+## Python Related Tools
+
+Python related tools such as `pip`, `virtualenv`, `pipenv`, `conda`.
+
+### Conda Install and Setup
+
+See https://docs.conda.io/en/latest/miniconda.html for install link. Use `miniconda` as it doesn't download all packages
+by default.
+
+1. Install miniconda with installer
+2. Add `\path\to\miniconda\condabin` to `PATH`
+    - Don't add `miniconda\Scripts`, this exposes a bunch of other things (python, etc)
+3. Run `conda init`, and optionally `conda update conda`
+
+See [Adding conda to path windows](https://stackoverflow.com/questions/44597662/conda-command-is-not-recognized-on-windows-10)

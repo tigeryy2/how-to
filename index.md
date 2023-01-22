@@ -62,6 +62,10 @@ ___
                 - Providing the `__getitem__` and `__setitem__` magic methods allows usage of subscripts directly on the object.
         - [Asterisks](how-to/python.md#Asterisks)
             - The `*` and `**` operators in python can be used in several ways, including tuple unpacking, iterator unpacking into
+    - [Python Related Tools](how-to/python.md#Python-Related-Tools)
+        - Python related tools such as `pip`, `virtualenv`, `pipenv`, `conda`.
+        - [Conda Install and Setup](how-to/python.md#Conda-Install-and-Setup)
+            - See https://docs.conda.io/en/latest/miniconda.html for install link. Use `miniconda` as it doesn't download all packages
 
 [`general.md`](how-to/general.md)
 - [General References](how-to/general.md#General-References)
