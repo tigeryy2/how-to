@@ -87,4 +87,7 @@ ___
 
 [`git.md`](how-to/git.md)
 - [GIT References](how-to/git.md#GIT-References)
+    - General info and references for git.
+    - [Move local repo to a fork after cloning](how-to/git.md#Move-local-repo-to-a-fork-after-cloning)
+        - Steps for changing local repo from clone of remote repo to fork of repo.
 ___
