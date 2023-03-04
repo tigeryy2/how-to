@@ -122,6 +122,33 @@ See
 [python 3.7 dataclass unpacking](https://stackoverflow.com/questions/37837520/implement-packing-unpacking-in-an-object)
 and [as-tuple deep copy](https://stackoverflow.com/questions/51802109/why-is-dataclasses-astuple-returning-a-deepcopy-of-class-attributes/51802661#51802661)
 
+#### Dataclass `__post_init__`
+
+Use the `__post_init__` method in dataclasses to run code immediately after initialization of the dataclass'
+attributes. This can replace code normally placed in the `__init__` method of a typical class, and is a good
+place to set attributes that are not simply provided by the user.
+
+    @dataclass
+    class Vehicle:
+        brand: str
+        catalogue_price: int
+        electric: bool
+        license_plate: str = field(init=False)
+
+        def __post_init__(self):
+            self.license_plate = generate_vehicle_license()
+   
+        @property
+        def tax(self) -> int:
+            tax_rate = 0.02 if self.electric else 0.05
+            return int(tax_rate * self.catalogue_price)
+
+    def main():
+        tesla = Vehicle("Tesla Model 3", 6000000, True)
+        volkswagen = Vehicle("Volkswagen", 3500000, True)
+        print(tesla.tax)
+        print(volkswagen.tax)
+
 ### namedtuple
 
 Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`

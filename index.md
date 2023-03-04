@@ -48,6 +48,8 @@ ___
             - Provides `@dataclass` decorator for basic functionality for classes used to hold data.
             - [Unpacking Dataclasses](how-to/python.md#Unpacking-Dataclasses)
                 - Use the `dataclasses.astuple(obj)` method to unpack a dataclass instance into a tuple. Note that this is recursive.
+            - [Dataclass `__post_init__`](how-to/python.md#Dataclass-`__post_init__`)
+                - Use the `__post_init__` method in dataclasses to run code immediately after initialization of the dataclass'
         - [namedtuple](how-to/python.md#namedtuple)
             - Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`
         - [Pathlib](how-to/python.md#Pathlib)
