@@ -149,6 +149,22 @@ place to set attributes that are not simply provided by the user.
         print(tesla.tax)
         print(volkswagen.tax)
 
+#### Dataclass `keyword-only __init__ parameters`
+
+Introduced in Python 3.10, dataclasses can now be created in keyword-only mode.
+
+    @dataclass(kw_only=True)
+    class SomeData:
+        name: str
+        value: str
+
+In this example, both the parameters to the generated __init__ are keyword-only. The generated __init__ is:
+
+    def __init__(self, *, name:str, value:str):
+
+Keyword only mode is useful for dataclass inheritance.
+See [py3.10 new dataclass features](https://www.trueblade.com/blogs/news/python-3-10-new-dataclass-features)
+
 ### namedtuple
 
 Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`

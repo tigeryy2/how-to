@@ -50,6 +50,8 @@ ___
                 - Use the `dataclasses.astuple(obj)` method to unpack a dataclass instance into a tuple. Note that this is recursive.
             - [Dataclass `__post_init__`](how-to/python.md#Dataclass-`__post_init__`)
                 - Use the `__post_init__` method in dataclasses to run code immediately after initialization of the dataclass'
+            - [Dataclass `keyword-only __init__ parameters`](how-to/python.md#Dataclass-`keyword-only-__init__-parameters`)
+                - Introduced in Python 3.10, dataclasses can now be created in keyword-only mode.
         - [namedtuple](how-to/python.md#namedtuple)
             - Tuple and Dictionary like objects to store values in both key-value and iterative patterns. Use `collections.namedtuple`
         - [Pathlib](how-to/python.md#Pathlib)
