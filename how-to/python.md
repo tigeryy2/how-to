@@ -246,6 +246,10 @@ lists, and more.
 
 See [asterisks in python](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/).
 
+### Single Line if else
+
+For example: `value = <value_if_true> if <expression> else <value_if_else>`
+
 ## Python Related Tools
 
 Python related tools such as `pip`, `virtualenv`, `pipenv`, `conda`.

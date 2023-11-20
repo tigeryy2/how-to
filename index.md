@@ -94,4 +94,18 @@ ___
     - General info and references for git.
     - [Move local repo to a fork after cloning](how-to/git.md#Move-local-repo-to-a-fork-after-cloning)
         - Steps for changing local repo from clone of remote repo to fork of repo.
+
+[`frontend.md`](how-to/frontend.md)
+- [Frontend References](how-to/frontend.md#Frontend-References)
+    - Javascript, Typescript, React, Next.JS references. For now, catch-all while I give myself a frontend
+    - [Envrionment Setup](how-to/frontend.md#Envrionment-Setup)
+        - Environment setup for frontend dev.
+        - [node.js and npm](how-to/frontend.md#node.js-and-npm)
+            - Use [nvm](https://github.com/nvm-sh/nvm), a node version manager, to install node.
+        - [next.js and React](how-to/frontend.md#next.js-and-React)
+            - Use `npm install next@latest react@latest react-dom@latest` or `npx create-next-app@latest` for auto setup.
+    - [Getting Started](how-to/frontend.md#Getting-Started)
+        - Getting started...
+        - [next.js boilerplate](how-to/frontend.md#next.js-boilerplate)
+            - See [vercel nextjs template](https://github.com/vercel/vercel/tree/main/examples/nextjs)
 ___
