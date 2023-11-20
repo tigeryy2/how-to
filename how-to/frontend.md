@@ -20,3 +20,17 @@ To install latest node: `nvm install node` or specific version: `nvm install 14.
 Switch between versions with `nvm use node`, to override the default in each new shell.
 
 See [installing node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+### next.js and React
+
+Use `npm install next@latest react@latest react-dom@latest` or `npx create-next-app@latest` for auto setup.
+
+See [nextjs installation](https://nextjs.org/docs/getting-started/installation)
+
+## Getting Started
+
+Getting started...
+
+### next.js boilerplate
+
+See [vercel nextjs template](https://github.com/vercel/vercel/tree/main/examples/nextjs)
