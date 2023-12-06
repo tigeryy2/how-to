@@ -34,3 +34,38 @@ Getting started...
 ### next.js boilerplate
 
 See [vercel nextjs template](https://github.com/vercel/vercel/tree/main/examples/nextjs)
+
+### Installing Prettier and Prettier Configuration
+
+To add prettier to a project, run `npm install prettier --save-dev`
+
+Configuration can be done via the `package.json` file, or a `.prettierrc` file.
+
+For example, to configure prettier to use 4 spaces instead of 2, add the following to `package.json`:
+
+```json
+  "prettier": {
+"tabWidth": 4
+},
+```
+
+### Tailwind CSS
+
+Install prettier plugin for tailwind, to automatically sort tailwind classes.
+
+Run:
+
+```bash
+npm install -D prettier prettier-plugin-tailwindcss
+```
+
+### Vercel Serverless Functions
+
+Note: Can't seem to use both Node and non-node serverless functions in the same project.
+See https://github.com/vercel/vercel/discussions/6197.
+
+Python serverless functions go in `/api` directory.
+Node serverless functions go in `/pages/api` directory.
+Can't seem to have both at the same time.
+
+Further, to use Python serverless functions locally, need to use `vercel dev` instead of `npm run dev`.`
