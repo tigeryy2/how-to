@@ -24,7 +24,7 @@ class Loggable:
 
     @staticmethod
     def setup_logs(
-            log_path: Path,
+            log_path: Path | None = None,
             console_log_level: int = logging.INFO,
             file_log_level: int = logging.DEBUG,
     ) -> None:
@@ -41,12 +41,13 @@ class Loggable:
         root_logger = logging.getLogger()
         root_logger.setLevel(logging.DEBUG)
 
-        # setup logging to file
-        file_handler = logging.handlers.RotatingFileHandler(
-            log_path, maxBytes=1000000, backupCount=5
-        )
-        file_handler.setLevel(file_log_level)
-        root_logger.addHandler(file_handler)
+        if log_path is not None:
+            # setup logging to file
+            file_handler = logging.handlers.RotatingFileHandler(
+                log_path, maxBytes=1000000, backupCount=5
+            )
+            file_handler.setLevel(file_log_level)
+            root_logger.addHandler(file_handler)
 
         # setup logging to console
         console_handler = logging.StreamHandler(sys.stdout)
