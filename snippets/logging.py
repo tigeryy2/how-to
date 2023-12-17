@@ -23,7 +23,7 @@ class Loggable:
     """Inherit from this class to get a `log()` classmethod that returns a logger for the parent class."""
 
     @staticmethod
-    def setup(
+    def setup_logs(
             log_path: Path,
             console_log_level: int = logging.INFO,
             file_log_level: int = logging.DEBUG,
