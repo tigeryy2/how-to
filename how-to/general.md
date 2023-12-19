@@ -31,3 +31,20 @@ See [vimium shortcuts](https://github.com/philc/vimium/blob/master/README.md).
 ### Markdown Cheat Sheet
 
 See [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
+
+## General Issues
+
+General issues and solutions
+
+### Monorepo Frontend+Backend Project Setup With Jetbrains IDEs
+
+When prototyping Frontend+Backend projects, the backend might need to be placed in a subdirectory of the frontend, to
+allow
+for nextJS python serverless functions to import from the backend.
+
+Having multiple '.idea' directories in the same project directory can cause issues with the IDEs.
+
+The solution is to keep the backend's '.idea' outside of the 'frontend' directory, and to add the 'frontend/backend'
+directory as a content root in the backend project.
+
+See [stackoverflow answer](https://stackoverflow.com/questions/53592343/how-do-i-use-pycharm-and-webstorm-in-the-same-project-simultaneously)
