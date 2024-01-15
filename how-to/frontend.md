@@ -69,3 +69,11 @@ Node serverless functions go in `/pages/api` directory.
 Can't seem to have both at the same time.
 
 Further, to use Python serverless functions locally, need to use `vercel dev` instead of `npm run dev`.`
+
+## Libraries and Tools
+
+Useful libraries and tools.
+
+### Authentication next-auth
+
+See [github](https://github.com/nextauthjs/next-auth) and [website](https://next-auth.js.org/)
