@@ -59,6 +59,31 @@ Run:
 npm install -D prettier prettier-plugin-tailwindcss
 ```
 
+### Storybook and NextJS integration
+
+When integrating Storybook with NextJS, may need to manually add the following to `.storybook/main.js`:
+
+```typescript
+    import path from "path";
+    const config: StorybookConfig = {
+    // ... other config
+
+    webpackFinal: async (config: any) => {
+        config.resolve.alias["@"] = path.resolve(__dirname, "../src");
+        config.resolve.alias["@/components"] = path.resolve(
+            __dirname,
+            "../src/components",
+        );
+
+        return config;
+    },
+    }
+```
+
+This should match the `tsconfig.json` paths, and allow Storybook to resolve the paths correctly.
+
+See [github issue](https://github.com/storybookjs/storybook/issues/12449#issuecomment-1637153787)
+
 ### Vercel Serverless Functions
 
 Note: Can't seem to use both Node and non-node serverless functions in the same project.
