@@ -66,8 +66,14 @@ ___
                 - Providing the `__getitem__` and `__setitem__` magic methods allows usage of subscripts directly on the object.
         - [Asterisks](how-to/python.md#Asterisks)
             - The `*` and `**` operators in python can be used in several ways, including tuple unpacking, iterator unpacking into
-    - [Python Related Tools](how-to/python.md#Python-Related-Tools)
-        - Python related tools such as `pip`, `virtualenv`, `pipenv`, `conda`.
+        - [Single Line if else](how-to/python.md#Single-Line-if-else)
+            - For example: `value = <value_if_true> if <expression> else <value_if_else>`
+    - [Packages and Tools](how-to/python.md#Packages-and-Tools)
+        - Useful packages and Python related tools such as `pip`, `virtualenv`, `pipenv`, `conda`.
+        - [Pendulum](how-to/python.md#Pendulum)
+            - Drop in replacement for datetime with cleaner API and better complex use-cases support.
+        - [SqlModel](how-to/python.md#SqlModel)
+            - Built on SQLAlchemy, provides ORM for Python. Works great with FastAPI.
         - [Conda Install and Setup](how-to/python.md#Conda-Install-and-Setup)
             - See https://docs.conda.io/en/latest/miniconda.html for install link. Use `miniconda` as it doesn't download all packages
 
@@ -88,6 +94,10 @@ ___
             - See [vimium shortcuts](https://github.com/philc/vimium/blob/master/README.md).
         - [Markdown Cheat Sheet](how-to/general.md#Markdown-Cheat-Sheet)
             - See [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
+    - [General Issues](how-to/general.md#General-Issues)
+        - General issues and solutions
+        - [Monorepo Frontend+Backend Project Setup With Jetbrains IDEs](how-to/general.md#Monorepo-Frontend+Backend-Project-Setup-With-Jetbrains-IDEs)
+            - When prototyping Frontend+Backend projects, the backend might need to be placed in a subdirectory of the frontend, to
 
 [`git.md`](how-to/git.md)
 - [GIT References](how-to/git.md#GIT-References)
@@ -108,4 +118,16 @@ ___
         - Getting started...
         - [next.js boilerplate](how-to/frontend.md#next.js-boilerplate)
             - See [vercel nextjs template](https://github.com/vercel/vercel/tree/main/examples/nextjs)
+        - [Installing Prettier and Prettier Configuration](how-to/frontend.md#Installing-Prettier-and-Prettier-Configuration)
+            - To add prettier to a project, run `npm install prettier --save-dev`
+        - [Tailwind CSS](how-to/frontend.md#Tailwind-CSS)
+            - Install prettier plugin for tailwind, to automatically sort tailwind classes.
+        - [Storybook and NextJS integration](how-to/frontend.md#Storybook-and-NextJS-integration)
+            - When integrating Storybook with NextJS, may need to manually add the following to `.storybook/main.js`:
+        - [Vercel Serverless Functions](how-to/frontend.md#Vercel-Serverless-Functions)
+            - Note: Can't seem to use both Node and non-node serverless functions in the same project.
+    - [Libraries and Tools](how-to/frontend.md#Libraries-and-Tools)
+        - Useful libraries and tools.
+        - [Authentication next-auth](how-to/frontend.md#Authentication-next-auth)
+            - See [github](https://github.com/nextauthjs/next-auth) and [website](https://next-auth.js.org/)
 ___

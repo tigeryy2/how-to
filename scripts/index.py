@@ -7,7 +7,8 @@ import re
 from collections import namedtuple
 from logging import getLogger
 from pathlib import Path
-from typing.io import TextIO
+
+from typing import TextIO
 
 Header = namedtuple("Header", ["level", "name", "summary"])
 
@@ -44,7 +45,7 @@ def get_md_in(directory: Path | str) -> [Path]:
     markdown_files: [Path] = []
     for path in os.listdir(directory):
         log().debug(f"Trying path `{path}`")
-        if str(path).split(".")[1] == "md":
+        if '.md' in path and str(path).split(".")[1] == "md":
             markdown_files.append(os.path.join(directory, path))
 
     return markdown_files

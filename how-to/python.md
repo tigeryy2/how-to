@@ -250,9 +250,19 @@ See [asterisks in python](https://treyhunner.com/2018/10/asterisks-in-python-wha
 
 For example: `value = <value_if_true> if <expression> else <value_if_else>`
 
-## Python Related Tools
+## Packages and Tools
 
-Python related tools such as `pip`, `virtualenv`, `pipenv`, `conda`.
+Useful packages and Python related tools such as `pip`, `virtualenv`, `pipenv`, `conda`.
+
+### Pendulum
+
+Drop in replacement for datetime with cleaner API and better complex use-cases support.
+
+See [pendulum github](https://github.com/sdispater/pendulum).
+
+### SqlModel
+
+Built on SQLAlchemy, provides ORM for Python. Works great with FastAPI.
 
 ### Conda Install and Setup
 
