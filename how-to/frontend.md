@@ -102,3 +102,8 @@ Useful libraries and tools.
 ### Authentication next-auth
 
 See [github](https://github.com/nextauthjs/next-auth) and [website](https://next-auth.js.org/)
+
+### Component Libraries
+
+[shadcn/ui](https://ui.shadcn.com/docs) - Shadcn UI component library
+[Prism UI](https://www.prismui.tech/) - Prism UI component library, builds on top of Shadcn UI
