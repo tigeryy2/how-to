@@ -3,7 +3,7 @@
 Javascript, Typescript, React, Next.JS references. For now, catch-all while I give myself a frontend
 crash course..
 
-## Envrionment Setup
+## Environment Setup
 
 Environment setup for frontend dev.
 
