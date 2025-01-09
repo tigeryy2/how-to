@@ -107,3 +107,4 @@ See [github](https://github.com/nextauthjs/next-auth) and [website](https://next
 
 [shadcn/ui](https://ui.shadcn.com/docs) - Shadcn UI component library
 [Prism UI](https://www.prismui.tech/) - Prism UI component library, builds on top of Shadcn UI
+[21st.dev](https://21st.dev/) - Blocks and Components built on top of Shadcn UI
